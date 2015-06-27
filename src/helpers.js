@@ -288,7 +288,7 @@ function cleanStyles(e) {
  * @return void
  **/
 function killBreaks(e) {
-  e.innerHTML = e.innerHTML.replace(regexps.killBreaksRe, '<br />');
+  //e.innerHTML = e.innerHTML.replace(regexps.killBreaksRe, '<br />');
 }
 
 
